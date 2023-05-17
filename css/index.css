@@ -1,0 +1,379 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand img{
+    position: absolute;
+    left: 70px;
+    top: 0;
+    width: 100px;
+    height: 70px;
+}
+a{
+    color: #000000;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+.navbar-nav .nav-link, .project-btn{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+.navbar-nav{
+    margin-left: 300px;
+}
+.navbar-nav .fa-solid{
+    margin-left: 45px;
+    margin-top: 25px;
+}
+.project-btn{
+    background-color: #FF9800;
+    color: white;
+    padding: 7px;
+    border: 1px solid #FF9800 ;
+} 
+
+#home{
+    margin-top: 100px;
+}
+.img-fluid{
+        position: relative;
+        width: 450px;
+        height: 633px;
+        left: 210px;
+        top: -90px;
+}
+.home{
+    box-sizing: border-box;
+    width: 648px;
+    height: 455px;
+    background: linear-gradient(90deg, rgba(13, 66, 61, 0.9) -22.84%, rgba(12, 199, 181, 0.9) 138.88%);
+    border: 0.5px solid #E6E6E6;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+.home p{
+    position: relative;
+    width: 470px;
+    height: 74px;
+    left: 11px;
+    top: 135px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 21px; 
+    color: #FFFFFF;
+    padding-left: 70px;
+}
+.home span{
+    position: absolute;
+    width: 170px;
+    height: 30px;
+    left: 11px;
+    top: 200px;
+    background: #F44336;
+    border-radius: 9px;
+    margin-left: 80px;
+}
+.home .txt{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding: 5px;
+} 
+
+#programmes{
+    margin-top: 150px;
+}
+#programmes h1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding-bottom: 100px;
+}
+.programmes{
+    margin-left: 70px;
+    padding: 90px;
+    background: #009688;
+    border-radius: 25px;
+}
+.programmes span{
+    margin-left: 25px;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+.bakeli{
+    height: 645px;
+    border: 1px solid #009688;
+    border-radius: 20px;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+.bakeli h2{
+    text-align: center;
+    padding: 23px;
+}
+.bakeli p{
+    width: 400px;
+    height: 90px;
+    font-size: 15px;
+    padding: 35px;
+}
+.bakeli .btn{
+    position: relative;
+    width: 116px;
+    height: 40px;
+    background: #F44336;
+    color: white;
+    left: 122px;
+    top: 270px;
+}
+
+.content{
+    margin-left: 70px;
+}
+.cours{
+    flex-wrap: wrap;
+}
+.cours .item{
+    margin: 9px;
+}
+.cours .programmation img,
+.cours .design img,
+.cours .marketing img,
+.cours .entreprenariat img{
+    padding: 25px 95px;
+}
+.cours p{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+.cours .programmation{
+    box-sizing: border-box;
+    border: 1px solid #F44336;
+    border-radius: 25px;
+}
+.cours .programmation p{
+    color: #F44336;
+}
+.cours .design{
+    box-sizing: border-box;
+    border: 1px solid #009688;
+    border-radius: 25px;
+}
+.cours .design p{
+    color: #009688;
+}
+.cours .marketing{
+    box-sizing: border-box;
+    border: 1px solid #FF9800;
+    border-radius: 25px;
+}
+.cours .marketing p{
+    color: #FF9800;
+}
+.cours .entreprenariat{
+    box-sizing: border-box;
+    border: 1px solid #009688;
+    border-radius: 25px;
+}
+.cours .entreprenariat p{
+    color: #009688;
+}
+.diplome{
+    background-color: #F44336;
+    margin-left: 70px;
+}
+.diplome img{
+    width: 50px;
+    height: 50px;
+}
+.diplome span{
+    margin-left: 15px;
+    width: 314px;
+    height: 27px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+.diplome p{
+    padding-bottom: 70px;
+    margin-left: 90px;
+    width: 500px;
+    height: 21px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+.zigzag-img{
+    width: 100%;
+}
+
+.coach{
+    margin-left: 70px;
+}
+.coach h2{
+    margin-top: 100px;
+    margin-bottom: 33px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+}
+.coach p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 70px;
+}
+.coach a{
+    padding: 11px 55px;
+    background: #F44336;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 500px;
+}
+
+.name{
+    flex-wrap: wrap;
+    margin-left: 70px;
+}
+.name .jane{
+    box-sizing: border-box;
+    margin: 21px;
+    border: 1px solid #009688;
+}
+.name .jane img,
+.name .jane img,
+.name .jane img,
+.name .jane img{
+    padding: 25px 25px;
+}
+.name .jane p{
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.elipse-img{
+    width: 190px;
+    margin-left: 600px;
+    margin-top: 90px;
+}
+
+.evenements{
+    padding-left: 70px;
+    padding-bottom: 100px;
+}                
+#evenements img{
+    width: 100%;
+}
+#evenements .evenements{
+    background-color: #F44336;
+}
+.evenements h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}     
+.evenements p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-bottom: 90px;
+}   
+
+.people p{
+    width: 353px;
+    height: 45px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+.people a{
+    color: #FFFFFF;
+    margin-left: 133px;
+    text-decoration: none;
+}
+
+#bloc h2{
+    margin-left: 70px;
+    font-family: 'Montserrat' sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+.partenaires{
+    background-color: #e0f7f5;
+    padding-bottom: 50px;
+}
+.bloc{
+    flex-wrap: wrap;
+    padding: 33px 55px;
+}
+.bloc img{
+    width: 170px;
+    height: 150px;
+    background-color: #FFFFFF;
+    margin: 18px;
+    padding: 25px;
+}
+.partenaires a{
+    padding: 7px 23px;
+    background: #F44336;
+    color: #FFFFFF;
+    margin-left: 600px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #009688;
+    margin-top: 100px;
+    padding-bottom: 33px;
+}                
+footer .fa-brands{
+    margin: 7px;
+    color: #fff;
+}
+footer p{
+    color: #fff;
+}
+footer .end{
+    text-align: end;
+}
+
